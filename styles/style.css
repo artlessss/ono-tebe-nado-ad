@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 92px 50px 96px;
+  padding: 92px 50px 106px;
 }
 
 .header__menu {
@@ -14,6 +14,7 @@
   display: flex;
   gap: 32px;
   list-style: none;
+  margin-left: -3px;
 }
 
 .header__links-list-item {
@@ -35,6 +36,7 @@
 
 .header__logo {
   width: 148px;
+  margin-left: 23px;
 }
 
 .header__logo-image {
@@ -45,18 +47,19 @@
 .header__address {
   justify-self: end;
   font-style: normal;
+  margin-right: -3px;
 }
 
 .address__item {
   font-size: 18px;
-  line-height: 1.35;
+  line-height: 24.3px;
   text-underline-position: under;
   display: block;
 }
 
 .address__address-text {
   font-size: 18px;
-  line-height: 1.35;
+  line-height: 24.3px;
 }
 
 .text-link:hover {
@@ -71,7 +74,6 @@
   background-image: url(../images/cover.jpg);
   background-size: cover;
   background-position: center;
-  min-height: 757px;
 }
 
 .overlay {
@@ -90,11 +92,11 @@
   z-index: 1;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 0;
   color: #fff;
-  font-size: 120px;
+  font-size: 100px;
   font-weight: 700;
-  letter-spacing: 60px;
+  letter-spacing: 30px;
   text-transform: uppercase;
   line-height: 1.15;
 }
@@ -128,7 +130,7 @@
   justify-content: flex-end;
   align-items: center;
   gap: 78px;
-  margin-top: 136px;
+  margin-top: 106px;
 }
 
 .cover__description-text {
@@ -157,6 +159,7 @@
 /* лоты */
 .lots {
   padding: 0 50px;
+  margin-top: 180px;
 }
 
 .lots__heading {
@@ -215,7 +218,7 @@
   font-weight: 700;
   text-decoration: underline;
   text-transform: uppercase;
-  line-height: 1.2;
+  line-height: 26.4px;
 }
 
 .card__text {
@@ -223,7 +226,7 @@
   z-index: 1;
   color: #fff;
   font-size: 20px;
-  line-height: 1.2;
+  line-height: 24px;
 }
 
 .lots__look-more-link {
@@ -238,7 +241,7 @@
   display: grid;
   grid-template-columns: 334px 1fr 1fr;
   padding: 0 50px;
-  margin-top: 180px;
+  margin-top: 182px;
 }
 
 .about__column {
@@ -258,7 +261,7 @@
   height: 240px;
   border-radius: 50%;
   background-color: #000;
-  margin-top: 35px;
+  margin-top: 33px;
 }
 
 .about__logo-image {
@@ -270,7 +273,7 @@
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 100px;
-  padding-top: 98px;
+  padding-top: 95px;
 }
 
 .about__text {
@@ -281,7 +284,7 @@
 
 .about__text p {
   font-size: 20px;
-  line-height: 1.2;
+  line-height: 24px;
 }
 
 /* подвал */
