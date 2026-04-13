@@ -72,7 +72,7 @@
 /* основной блок (cover) */
 .cover {
   position: relative;
-  padding: 170px 50px 40px;
+  padding: 210px 50px 40px;
   background-image: url(../images/cover.jpg);
   background-size: cover;
   background-position: center;
@@ -94,7 +94,7 @@
   z-index: 1;
   display: flex;
   flex-direction: column;
-  gap: 0;
+  gap: 30px;
   color: #fff;
   font-size: 100px;
   font-weight: 700;
@@ -132,7 +132,7 @@
   justify-content: flex-end;
   align-items: center;
   gap: 78px;
-  margin-top: 106px;
+  margin-top: 150px;
 }
 
 .cover__description-text {
@@ -243,7 +243,7 @@
   display: grid;
   grid-template-columns: 334px 1fr;
   padding: 0 50px;
-  margin-top: 182px;
+  margin-top: 170px;
   gap: 25px;
 }
 
