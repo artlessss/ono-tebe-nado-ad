@@ -1,3 +1,5 @@
+/* style.css - исправленная версия */
+
 /* шапка */
 .header {
   display: grid;
@@ -70,7 +72,7 @@
 /* основной блок (cover) */
 .cover {
   position: relative;
-  padding: 165px 50px 50px;
+  padding: 170px 50px 40px;
   background-image: url(../images/cover.jpg);
   background-size: cover;
   background-position: center;
@@ -96,7 +98,7 @@
   color: #fff;
   font-size: 100px;
   font-weight: 700;
-  letter-spacing: 30px;
+  letter-spacing: 35px;
   text-transform: uppercase;
   line-height: 1.15;
 }
@@ -116,7 +118,7 @@
 }
 
 .letter-spacing-extended {
-  letter-spacing: 60px;
+  letter-spacing: 30px;
 }
 
 .remove-spacing {
@@ -170,14 +172,14 @@
 }
 
 .lots__card-list {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 25px;
   list-style: none;
 }
 
 .lots__card-list-item {
-  width: calc((100% - 50px) / 3);
+  width: 100%;
   min-height: 100%;
 }
 
@@ -239,9 +241,10 @@
 /* об аукционе */
 .about {
   display: grid;
-  grid-template-columns: 334px 1fr 1fr;
+  grid-template-columns: 334px 1fr;
   padding: 0 50px;
   margin-top: 182px;
+  gap: 25px;
 }
 
 .about__column {
@@ -250,7 +253,8 @@
 
 .about__column_text {
   grid-column: 2 / -1;
-  padding-left: 25px;
+  padding-left: 0px;
+  margin-left: -20px;
 }
 
 .about__logo {
@@ -261,11 +265,12 @@
   height: 240px;
   border-radius: 50%;
   background-color: #000;
-  margin-top: 33px;
+  margin-top: 30px;
+  margin-left: -20px;
 }
 
 .about__logo-image {
-  width: 114px;
+  width: 160px;
 }
 
 .about__title {
@@ -273,7 +278,7 @@
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 100px;
-  padding-top: 95px;
+  padding-top: 130px;
 }
 
 .about__text {
@@ -283,7 +288,7 @@
 }
 
 .about__text p {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 24px;
 }
 
